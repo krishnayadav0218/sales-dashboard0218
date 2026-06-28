@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# Data — do not commit raw PII data
+data/raw/
+data/cleaned/
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+
+# Power BI
+*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
